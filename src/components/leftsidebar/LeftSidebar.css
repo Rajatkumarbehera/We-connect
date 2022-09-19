@@ -1,0 +1,106 @@
+.left-sidebar {
+    flex: 2;
+    width: 100%;
+    height: calc(100vh - 55px);
+    position: sticky;
+    overflow-y: scroll;
+    top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+}
+
+.left-sidebar-wrapper {
+    padding: 10px;
+}
+
+.left-sidebar-wrapper:first-child {
+    padding-top: 10px;
+}
+
+.left-sidebar-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.left-sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.left-sidebar-item:hover {
+    background-color: #F3F4F6;
+    border-radius: 10px;
+}
+
+.left-sidebar-icon {
+    margin-right: 10px;
+}
+
+.left-sidebar-text {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #585757;
+}
+
+.line {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.heading {
+    margin: 0 0 15px 10px;
+}
+
+.friend-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pages {
+    margin: 0 0 15px 10px;
+}
+
+.pages-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pages-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    cursor: pointer;
+}
+
+.pages-item:hover {
+    background-color: #F3F4F6;
+    border-radius: 10px;
+}
+
+.pages-icon {
+    margin-right: 10px; 
+}
+
+.pages-text {
+    font-weight: 600;
+    color: #585757;
+}

@@ -1,0 +1,33 @@
+.right-sidebar-friend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.right-sidebar-img-container {
+    margin-right: 10px;
+    position: relative;
+}
+
+.right-sidebar-profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.right-sidebar-online {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: limegreen;
+    border: 2px solid white;
+    position: absolute;
+    top: 28px;
+    right: 0;
+}
+
+.right-sidebar-username {
+    font-weight: 600;
+    color: #616060;
+}

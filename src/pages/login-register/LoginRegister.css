@@ -1,0 +1,43 @@
+.login-register {
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-register-wrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.login-register-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-register-logo {
+    display: flex;
+    align-items: center;
+}
+
+.login-register-text {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #1775ee;
+}
+
+.login-register-desc {
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+.login-register-desc::first-letter {
+    font-weight: 600;
+    color: #1775ee;
+}
