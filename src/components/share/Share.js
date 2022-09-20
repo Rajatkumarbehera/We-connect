@@ -1,11 +1,11 @@
 import { InsertEmoticonRounded, LabelRounded, PermMedia, PlaceRounded } from "@mui/icons-material";
 import React from "react";
-import './Share.css';
+// import './Share.css';
 
 const Share = () => {
     return (
         <div className="share-container">
-            <div className="share-wrapper">
+            {/* <div className="share-wrapper">
                 <div className="share-top">
                     <img src="assets/person/person1.jpg" alt="person" className="share-img" />
                     <input className="share-input" placeholder="What's your mind?" />
@@ -32,7 +32,7 @@ const Share = () => {
                     </div>
                     <button className="share-button">Share</button>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

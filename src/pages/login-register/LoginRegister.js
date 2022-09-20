@@ -7,6 +7,7 @@ import './LoginRegister.css';
 const LoginRegister = () => {
 
     const pathName = window.location.pathname;
+    console.log(pathName);
 
     return (
         <div className="login-register">
@@ -19,7 +20,7 @@ const LoginRegister = () => {
                     <span className="login-register-desc">Connect with friends and the world around you on We.Connect</span>
                 </div>
 
-                {pathName === "/login" ? <Login /> : <Register />}
+                {pathName?.includes("/login") ? <Login /> : <Register />}
             </div>
         </div>
     )

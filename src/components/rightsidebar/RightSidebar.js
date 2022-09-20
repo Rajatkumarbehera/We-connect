@@ -1,13 +1,13 @@
 import React from "react";
 import { Users } from "../../data";
 import Online from "../online/Online";
-import './RightSidebar.css';
+// import './RightSidebar.css';
 
 const RightSidebar = ( { Profile }) => {
     const HomeRightSidebar = () => {
         return (
             <>
-                <div className="birthday-container">
+                {/* <div className="birthday-container">
                     <img src="assets/gift.png" alt="gift" className="birthday-img" />
                     <span className="birthday-text">
                         <strong>Rohan</strong> and <strong>5 others</strong> have a birthday today.
@@ -23,7 +23,7 @@ const RightSidebar = ( { Profile }) => {
                     {Users.map((u) => (
                         <Online key={u.id} user={u} />
                     ))}
-                </ul>
+                </ul> */}
             </>
         )
     }

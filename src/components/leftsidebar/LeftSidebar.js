@@ -2,13 +2,13 @@ import { Bookmark, Chat, Code, Description, Event, ExitToApp, Group, Help, Inser
 import React from "react";
 import { Users } from "../../data";
 import Friend from "../friend/Friend";
-import './LeftSidebar.css';
+// import './LeftSidebar.css';
 import { Link } from "react-router-dom";
 
 const LeftSidebar = () => {
     return (
         <div className="left-sidebar">
-            <div className="left-sidebar-wrapper">
+            {/* <div className="left-sidebar-wrapper">
                 <ul className="left-sidebar-list">
                     <Link to="/feed" style={{textDecoration: "none"}}>
                         <li className="left-sidebar-item">
@@ -86,7 +86,7 @@ const LeftSidebar = () => {
                         <span className="pages-text">Authentication</span>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     )
 }
