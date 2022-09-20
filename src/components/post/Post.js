@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Users } from "../../data";
 import Loader from "../loader/Loader";
 import More from "../more/More";
-// import './Post.css';
+import './Post.css';
 
 const Post = ( { post } ) => {
 
@@ -25,7 +25,7 @@ const Post = ( { post } ) => {
 
     return (
         <div className="post-container">
-            {/* <div className="post-wrapper">
+            <div className="post-wrapper">
                 <div className="post-top">
                     <div className="post-top-left">
                         <img src={Users.filter((u) => u.id === post?.userId)[0].profilePic} alt="person" className="post-profile-img" />
@@ -82,7 +82,7 @@ const Post = ( { post } ) => {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
