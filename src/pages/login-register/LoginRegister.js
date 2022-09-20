@@ -7,7 +7,6 @@ import './LoginRegister.css';
 const LoginRegister = () => {
 
     const pathName = window.location.pathname;
-    console.log(pathName);
 
     return (
         <div className="login-register">
